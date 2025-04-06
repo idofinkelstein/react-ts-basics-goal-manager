@@ -1,11 +1,39 @@
-# React + TypeScript + Vite
+# React + TypeScript + Vite - Goal Tracker App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a simple, interactive web application built with React, TypeScript, and Vite. It allows users to add their goals with a description and a short summary, which are then displayed in a list on the page. This project was created as a first experience with React and TypeScript.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+*   **Add New Goals:** Users can input their goals and a short description using a form.
+*   **Display Goal List:** The added goals are displayed in a list format on the page.
+*   **Interactive:** The application provides a user-friendly interface for managing goals.
+
+## Technologies Used
+
+*   **React:** A JavaScript library for building user interfaces.
+*   **TypeScript:** A superset of JavaScript that adds static typing.
+*   **Vite:** A build tool that provides a fast and efficient development experience.
+
+## Getting Started
+
+To get started with this project, follow these steps:
+
+1.  **Clone the repository:**
+
+    ```bash
+    git clone <repository_url>
+    ```
+2.  **Install dependencies:**
+
+    ```bash
+    npm install
+    ```
+3.  **Start the development server:**
+
+    ```bash
+    npm run dev
+    ```
+4.  **Open your browser and navigate to `http://localhost:5173` (or the URL provided by Vite).**
 
 ## Expanding the ESLint configuration
 
@@ -52,3 +80,6 @@ export default tseslint.config({
   },
 })
 ```
+```
+
+I have updated the `README.md` file to include a description of your project, its features, the technologies used, and instructions on how to get started. Let me know if you'd like me to make any further changes!
